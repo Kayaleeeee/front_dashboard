@@ -48,8 +48,7 @@ const LineGraph = () => {
   ];
   return (
     <>
-      <h1>Line Graph</h1>
-      <LineChart width={400} height={400} data={data}>
+      <LineChart width={800} height={400} data={data}>
         <CartesianGrid stroke='#ccc' strokeDasharray='5 5' />
         <Line type='monotone' dataKey='amt' stroke='#8884d8' />
         <XAxis dataKey='name' />

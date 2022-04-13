@@ -1,14 +1,21 @@
 import React from 'react';
 import LineGraph from './LineGraph';
-import TreeMap from './TreeMap';
+import styled from 'styled-components';
 
 const Chart = () => {
   return (
-    <div>
+    <Wrapper>
       <LineGraph />
-      <TreeMap />
-    </div>
+      {/* <TreeMap /> */}
+    </Wrapper>
   );
 };
 
 export default Chart;
+
+const Wrapper = styled.div`
+  margin: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+`;
