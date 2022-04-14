@@ -6,7 +6,7 @@ export const PublicRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MainPage />} />
+        <Route path='/front_dashboard' element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );
